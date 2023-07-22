@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/PATIENT_CARE/static/css/main.12b1fcd3.css",
+    "main.js": "/PATIENT_CARE/static/js/main.d70df717.js",
+    "index.html": "/PATIENT_CARE/index.html",
+    "main.12b1fcd3.css.map": "/PATIENT_CARE/static/css/main.12b1fcd3.css.map",
+    "main.d70df717.js.map": "/PATIENT_CARE/static/js/main.d70df717.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.12b1fcd3.css",
+    "static/js/main.d70df717.js"
+  ]
+}
