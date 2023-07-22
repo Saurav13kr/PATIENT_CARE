@@ -1,0 +1,33 @@
+.patient-list-card-body {
+  width: 20vw;
+  min-width: 300px;
+  height: 45vh;
+  border-radius: 5px;
+  color: RGB(254, 255, 255);
+  padding: 1rem;
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(56, 56, 56);
+}
+.patient-list-card-body h1 {
+  margin: 0;
+  margin-bottom: 2vh;
+}
+.patient-list-card-body img {
+  width: 100%;
+  height: 22vh;
+  margin-bottom: 2vh;
+}
+.patient-list-card-body button {
+  background-color: RGB(23, 161, 184);
+  color: white;
+  padding: 0.5rem;
+  width: 25vw;
+  min-width: 200px;
+  border-radius: 5px;
+  border: none;
+  width: 5vw;
+}/*# sourceMappingURL=patientListCard.css.map */

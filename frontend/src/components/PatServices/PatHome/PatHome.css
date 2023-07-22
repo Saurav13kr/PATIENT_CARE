@@ -1,0 +1,28 @@
+.pat-home-main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.pat-home-main-container h1 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.pat-home-main-container button {
+  padding: 0.5rem;
+  border-radius: 8px;
+  border: none;
+  margin-bottom: 3rem;
+  width: 10vw;
+  min-width: -moz-fit-content;
+  min-width: fit-content;
+}
+.pat-home-main-container button:hover {
+  background-color: red;
+}
+.pat-home-main-container .pat-cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}/*# sourceMappingURL=PatHome.css.map */

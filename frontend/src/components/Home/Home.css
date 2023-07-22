@@ -1,0 +1,26 @@
+.home-main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.home-main-container #hosp-logo {
+  margin-top: 2rem;
+  border-radius: 8px;
+  width: 10vw;
+}
+.home-main-container .navigatingg-logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10vw;
+  margin-top: 10vh;
+  justify-content: space-between;
+}
+.home-main-container .navigatingg-logos img {
+  width: 25vw;
+}
+.home-main-container .navigatingg-logos #doc:hover, .home-main-container .navigatingg-logos #pat:hover {
+  cursor: pointer;
+  background-color: RGB(126, 127, 127);
+}/*# sourceMappingURL=Home.css.map */

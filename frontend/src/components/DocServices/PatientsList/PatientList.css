@@ -1,0 +1,16 @@
+.patient-list-main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.patient-list-main-container #heading {
+  margin-bottom: 8vh;
+}
+.patient-list-main-container .patient-list-card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}/*# sourceMappingURL=PatientList.css.map */

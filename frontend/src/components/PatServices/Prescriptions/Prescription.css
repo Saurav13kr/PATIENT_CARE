@@ -1,0 +1,7 @@
+.prescription-card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 5vw;
+}/*# sourceMappingURL=Prescription.css.map */

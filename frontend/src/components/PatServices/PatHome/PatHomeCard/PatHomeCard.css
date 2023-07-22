@@ -1,0 +1,28 @@
+.pat-home-card-container {
+  width: 20vw;
+  min-width: 300px;
+  height: 45vh;
+  border-radius: 5px;
+  background-color: RGB(56, 56, 56);
+  color: RGB(254, 255, 255);
+  padding: 1rem;
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.pat-home-card-container img {
+  width: 100%;
+  height: 22vh;
+}
+.pat-home-card-container p {
+  margin-top: 1rem;
+  font-size: large;
+}
+
+.pat-home-card-container:hover {
+  cursor: pointer;
+  background-color: black;
+  color: white;
+}/*# sourceMappingURL=PatHomeCard.css.map */

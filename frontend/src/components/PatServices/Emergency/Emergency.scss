@@ -1,0 +1,26 @@
+.emergency-main-container {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10VH;
+
+    h1 {
+        color: red;
+        margin-bottom: 3rem;
+    }
+
+    button {
+
+        background-color: white;
+        padding: 0.4rem 1rem;
+        border-radius: 8px;
+        border: none;
+    }
+
+    button:hover {
+            background-color:red;
+            color: white;
+        }
+}

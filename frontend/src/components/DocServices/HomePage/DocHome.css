@@ -1,0 +1,25 @@
+.doctor-home-main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.doctor-home-main-container #heading {
+  margin-bottom: 10vh;
+  text-align: center;
+}
+.doctor-home-main-container #heading button {
+  padding: 0.5rem;
+  border-radius: 8px;
+  border: none;
+  width: 10vw;
+  min-width: -moz-fit-content;
+  min-width: fit-content;
+}
+.doctor-home-main-container .doctor-cards-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}/*# sourceMappingURL=DocHome.css.map */

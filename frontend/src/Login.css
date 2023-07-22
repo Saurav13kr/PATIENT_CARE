@@ -1,0 +1,14 @@
+#box {
+    background-color:black;
+    border-radius: 10px;
+}
+
+.val {
+    padding: 7%;
+    margin: 5%;
+}
+
+input {
+    min-width: 100%;
+    max-width: 100%;
+}

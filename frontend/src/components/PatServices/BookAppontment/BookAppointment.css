@@ -1,0 +1,60 @@
+.book-appointment-main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.book-appointment-main-container #heading {
+  margin-bottom: 5vh;
+}
+.book-appointment-main-container .second-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+.book-appointment-main-container .second-container .button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex: 1;
+  margin-left: 8rem;
+  height: 70vh;
+}
+.book-appointment-main-container .second-container .button-container button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 1rem;
+  width: 25vw;
+  min-width: 200px;
+  border-radius: 8px;
+  padding: 0.5rem;
+  border: none;
+  background: radial-gradient(circle at -8.9% 51.2%, rgb(255, 124, 0) 0%, rgb(255, 124, 0) 15.9%, rgb(255, 163, 77) 15.9%, rgb(255, 163, 77) 24.4%, rgb(19, 30, 37) 24.5%, rgb(19, 30, 37) 66%);
+  color: white;
+  font-size: x-large;
+}
+.book-appointment-main-container .second-container .button-container button:hover {
+  opacity: 0.5;
+}
+.book-appointment-main-container .second-container .button-container #submit {
+  margin-bottom: 5vh;
+}
+.book-appointment-main-container .second-container .button-container #submit button {
+  background: RGB(23, 161, 184);
+}
+.book-appointment-main-container .second-container .doctor-list {
+  margin-left: 4vw;
+  height: 70vh;
+  overflow-y: scroll;
+  flex: 3;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}/*# sourceMappingURL=BookAppointment.css.map */

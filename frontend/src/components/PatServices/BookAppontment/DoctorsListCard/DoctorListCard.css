@@ -1,0 +1,32 @@
+.doctor-list-card-body {
+  width: 20vw;
+  min-width: 200px;
+  height: 28vh;
+  background-color: RGB(56, 56, 56);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  border-radius: 4px;
+  color: RGB(254, 255, 255);
+  margin: 2vw;
+  margin-bottom: 3vh;
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-width: 250px;
+}
+.doctor-list-card-body img {
+  width: 19vw;
+  min-width: 240px;
+  height: 22vh;
+}
+.doctor-list-card-body h2 {
+  margin-top: 0.2rem;
+}
+
+.doctor-list-card-body:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}/*# sourceMappingURL=DoctorListCard.css.map */

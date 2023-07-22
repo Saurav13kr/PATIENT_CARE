@@ -1,0 +1,60 @@
+.daily-checkup-body h1 {
+  margin: 2rem;
+}
+.daily-checkup-body .form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem;
+}
+.daily-checkup-body .form-container h3 {
+  text-align: center;
+}
+.daily-checkup-body .form-container label {
+  font-size: 140%;
+  margin-top: 1rem;
+}
+.daily-checkup-body .form-container input {
+  padding: 0.4rem;
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+}
+.daily-checkup-body .form-container .vital-check-section {
+  display: flex;
+  justify-content: space-between;
+  gap: 3vw;
+}
+.daily-checkup-body .form-container .vital-check-section button {
+  width: 10vw;
+  padding: 0.3rem;
+  background-color: rgb(21, 162, 184);
+  border-radius: 5px;
+  color: whitesmoke;
+  min-width: 80px;
+  border: none;
+}
+.daily-checkup-body .form-container .vital-check-section input {
+  width: 10vw;
+  min-width: 80px;
+}
+.daily-checkup-body .form-container #popup-button {
+  padding: 0.3rem;
+  background-color: rgb(5, 123, 254);
+  color: whitesmoke;
+  border-radius: 5px;
+  border: none;
+  width: 100%;
+}
+.daily-checkup-body .form-container .sub-section {
+  margin-bottom: 5vh;
+}
+.daily-checkup-body .form-container #submit-btn {
+  padding: 0.3rem;
+  background-color: rgb(5, 123, 254);
+  color: whitesmoke;
+  border-radius: 5px;
+  border: none;
+  width: 100%;
+}/*# sourceMappingURL=DailyCheckUp.css.map */

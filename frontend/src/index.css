@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box ;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Source+Sans+Pro:wght@300&display=swap');
+
+body {
+  background-color: RGB(18, 18, 18);
+  color: RGB(227, 227, 227);
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1 {
+    font-weight: 600;
+}
+
+h2 {
+  font-weight: 500;
+}

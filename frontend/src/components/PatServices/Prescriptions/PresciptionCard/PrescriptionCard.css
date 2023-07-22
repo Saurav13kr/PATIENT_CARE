@@ -1,0 +1,19 @@
+.prescription-card-main-body {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 2rem;
+  gap: 5vw;
+}
+.prescription-card-main-body div {
+  height: 20vh;
+  width: 25vw;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-width: 200px;
+  min-height: -moz-fit-content;
+  min-height: fit-content;
+}/*# sourceMappingURL=PrescriptionCard.css.map */

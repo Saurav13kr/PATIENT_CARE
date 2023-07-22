@@ -1,0 +1,32 @@
+.signup-main-container {
+  display: flex;
+  flex-direction: column;
+}
+.signup-main-container .form-container {
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.signup-main-container .form-container label {
+  font-size: 140%;
+  margin-top: 1rem;
+}
+.signup-main-container .form-container input {
+  padding: 0.4rem;
+  border: none;
+  border-radius: 5px;
+  width: 25vw;
+  min-width: 200px;
+}
+.signup-main-container .form-container button {
+  margin: 3rem 0 3rem 0;
+  background-color: RGB(23, 161, 184);
+  color: white;
+  padding: 0.5rem;
+  width: 25vw;
+  min-width: 200px;
+  border-radius: 5px;
+  border: none;
+}/*# sourceMappingURL=SignUp.css.map */

@@ -1,0 +1,40 @@
+@mixin center {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.home-main-container {
+
+    @include center();
+    flex-direction: column;
+
+    #hosp-logo {
+
+        margin-top: 2rem;
+        border-radius: 8px;
+        width: 10vw;
+    }
+
+    .navigatingg-logos {
+
+        @include center();
+
+        gap: 10vw;
+        margin-top: 10vh;
+        justify-content: space-between;
+
+        img {
+            width: 25vw;
+        }
+
+        #doc:hover, #pat:hover {
+            cursor: pointer;
+            background-color: RGB(126, 127, 127);
+        }
+
+        
+    }
+}

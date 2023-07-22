@@ -1,0 +1,18 @@
+.appointment-main-container {
+
+    height: 100vh;
+    overflow-y: scroll;
+
+
+    h1 {
+        margin-bottom: 5rem;
+    }
+
+    #no-appointment {
+
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 40vh;
+    }
+}

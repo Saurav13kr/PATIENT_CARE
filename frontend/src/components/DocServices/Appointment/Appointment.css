@@ -1,0 +1,13 @@
+.appointment-main-container {
+  height: 100vh;
+  overflow-y: scroll;
+}
+.appointment-main-container h1 {
+  margin-bottom: 5rem;
+}
+.appointment-main-container #no-appointment {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40vh;
+}/*# sourceMappingURL=Appointment.css.map */

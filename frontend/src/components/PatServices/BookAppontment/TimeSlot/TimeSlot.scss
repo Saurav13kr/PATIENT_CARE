@@ -1,0 +1,72 @@
+.time-slot-main-container {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .time-slots {
+
+        margin-top: 10vh;
+        margin-bottom: 5vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        #calendar {
+
+            margin-top: 2rem;
+
+            label {
+                font-size: 200%;
+            }
+
+            input {
+                width: 100%;
+                padding: 1rem;
+                border-radius: 8px;
+            }
+        }
+        
+        button {
+            
+            padding: 1rem;
+            border-radius: 8px;
+            border: none;
+            margin-right: 5vw;
+            background: linear-gradient(181.2deg, rgb(181, 239, 249) 10.5%, rgb(254, 254, 254) 86.8%);
+
+            &.selected {
+                background: linear-gradient(171.8deg, rgb(5, 111, 146) 13.5%, rgb(6, 57, 84) 78.6%);
+            }
+        }
+
+
+    }
+    .submit-btn {
+        
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+
+        button {
+            padding: 1rem;
+            border-radius: 8px;
+            border: none;
+            background-color: aqua;
+        }
+
+        #close {
+            background-color: rgb(228, 32, 32);
+        }
+    }
+}
